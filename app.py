@@ -7,3 +7,4 @@ CORS(app)
 def recevoir():
     print(request.json)
     return {"status": "ok"}, 200
+
